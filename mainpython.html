@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>That Moment</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+<body>
+
+    <div class="w3-top">
+        <div class="w3-bar w3-green w3-card w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+          <a href="PL.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Programming Language</a>
+          <a href="videos.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Videos</a>
+          <a href="jokes.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Jokes</a>
+          <a href="stories.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Stories</a>
+          <a href="bitcoin.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Bitcoin</a>
+          <a href="join.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Join us</a>
+        </div>
+      
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+          <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Programmng Language</a>
+          <a href="videos.html" class="w3-bar-item w3-button w3-padding-large">Videos</a>
+          <a href="jokes.html" class="w3-bar-item w3-button w3-padding-large">Jokes</a>
+          <a href="stories.html" class="w3-bar-item w3-button w3-padding-large">Stories</a>
+          <a href="bitcoin.html" class="w3-bar-item w3-button w3-padding-large">Bitcoin</a>
+          <a href="join.html" class="w3-bar-item w3-button w3-padding-large">Join us</a>
+        </div>
+      </div>
+
+<!-- Header -->
+<header class="w3-container w3-green w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo" style="font-family: 'Courier New', Courier, monospace;">THAT MOMENT <abbr title="That Moment">TM</abbr></h1>
+  <p class="w3-xlarge">Welcome To That Moment Python</p>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a link href="">Get Started</a></button>
+</header>
+<body>
+    CONTENTS<br />
+
+    1 Whetting Your Appetite 3<br />
+    2 Using the Python Interpreter 5<br />
+    2.1 Invoking the Interpreter . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5<br />
+    2.2 The Interpreter and Its Environment . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6<br />
+    3 An Informal Introduction to Python 9<br />
+    3.1 Using Python as a Calculator . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9<br />
+    3.2 First Steps Towards Programming . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16<br />
+    4 More Control Flow Tools 19<br />
+    4.1 if Statements .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19<br />
+    4.2 for Statements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19<br />
+    4.3 The range() Function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20<br />
+    4.4 break and continue Statements, and else Clauses on Loops . . . . . . . . . . . . . . . . . . 21<br />
+    4.5 pass Statements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22<br />
+    4.6 Defining Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22<br />
+    4.7 More on Defining Functions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24<br />
+    4.8 Intermezzo: Coding Style . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29<br />
+    5 Data Structures 31<br />
+    5.1 More on Lists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31<br />
+    5.2 The del statement . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35<br />
+    5.3 Tuples and Sequences . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36<br />
+    5.4 Sets . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37<br />
+    5.5 Dictionaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37<br />
+    5.6 Looping Techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39<br />
+    5.7 More on Conditions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40<br />
+    5.8 Comparing Sequences and Other Types . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 40<br />
+    6 Modules 43<br />
+    6.1 More on Modules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 44<br />
+    6.2 Standard Modules . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46<br />
+    6.3 The dir() Function . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47<br />
+    6.4 Packages . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48<br />
+    7 Input and Output 51<br />
+    7.1 Fancier Output Formatting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51<br />
+    7.2 Reading and Writing Files . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 54<br />
+    8 Errors and Exceptions 59<br />    
+</body>
+<button class="w3-button w3-black w3-padding-large w3-large w3-card w3-margin-top"><a href="">Chapter 1</a></button>
+<button class="w3-button w3-black w3-padding-large w3-large w3-card w3-margin-top"><a href="">Chapter 2</a></button>
+<button class="w3-button w3-black w3-padding-large w3-large w3-card w3-margin-top"><a href="">Chapter 3</a></button>
+<button class="w3-button w3-black w3-padding-large w3-large w3-card w3-margin-top"><a href="">Chapter 4</a></button>
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-whatsapp w3-hover-opacity"></i> 
+ </div>
+ <p>&copy;That Moment 2019. All rights reserved</p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
