@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lawngreen;
+}
+#head {
+    padding: 100px 25px;
+    max-width: 100%;
+    min-height: auto;
+    background-image: url("received_590472931493346.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{margin: 0;}
+.text {
+    margin: 0px auto;
+    max-width: 90%;
+}
+.text button {
+    border: none;
+    padding: 15px 20px;
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    background-color: lawngreen;
+}
+.text h1 {
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-weight: lighter;
+    font-size: 3em;
+}
+h1, h2 {
+    color: crimson;
+}
+i {
+    color: #000;
+}
+p a {
+    color: brown
+}
+address {
+    color: #000;
+}
+li {
+    padding: 20px;
+    color: aliceblue
+}
+/* color name*/
+h1 {
+    color: darkcyan
+}
+/* rgb value */
+p {
+    color: rgb(100, 100, 90);
+}
+body {
+    background-color: white
+}
+ul li:hover a {
+    color: #000000;
+}
+li {
+    background-image: url("images/bitcoin-2007912_960_720.jpg");
+}
+#no li {
+    float: right;
+    background-color: #000000
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: lawngreen;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+}
+
+ul li {
+    float: left;
+    padding: 15px;
+}
+li a {
+    text-decoration: none;
+    color: white;
+}
+#footer {
+    background-color: #efefef;
+    padding: 0.5cm  0;
+}
+#body {
+    background-image: url("bitcoin-3089728__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center
+}
+#newabout {
+    padding: 100px 100px;
+    background-image: url("received_590472931493346.jpeg");
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+#no {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+}
+#python {
+    background-image: url(python.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 50px;
+    margin: 0;   
+    font-family: Arial, Helvetica, sans-serif;
+    max-height: auto;
+}
+
+body {
+    overflow-x: auto;
+    overflow-y: scroll;
+}
+body, html {
+    height: 100%;
+}
+body {
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+ button, font, footer, form, h1, h2, h3, h4, h5, h6, header, li, nav, ol, strong,  title  {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: lawngreen;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+#body {
+    font-size: 20;
+}
